@@ -1,0 +1,78 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: right;
+}
+li a:hover {
+	border-bottom: 1px solid #a2a2a2;
+}
+.site-nav__link {
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	white-space: nowrap;
+	color: #333;
+	font-weight: 900;
+}
+.top-layer {
+	background-color: #F5F5F5;
+	background-image: url(20140421-Business-communication.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.header {
+	width: 960px;
+	height: 75px;
+}
+.description {
+	text-align: center;
+	color: #000000
+}
+.highlight{
+	color: #FFDC00
+}
+h1 {
+	font-size: 45px;
+}
+h2 {
+	font-size: 30px;
+}
+.slideshow-container {
+	position: relative;
+	width: 25%;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+.text {
+	color: #0000ff;
+	font-size: 30px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 0;
+}
+.numbertext {
+	color: #0000ff;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.mySlides {
+	/*display: none;*/
+	position: relative;
+	width: 300px;
+	height: 300px;
+}
+
+
+
+
+
+
+
+

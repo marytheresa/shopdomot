@@ -1,0 +1,112 @@
+<HTML>
+	<script src = "slideshow.js"></script>
+	<HEAD>
+        <link rel = "stylesheet" href = "homepage_css.css">
+        <script src= "https://cdn.firebase.com/v0/firebase.js"></script>
+    </HEAD>
+	<BODY>
+
+<div class = "header">
+<ul>
+<li><a href = "" class = "site-nav__link"> Search </a></li>
+<li><a href = "" class = "site-nav__link"> Log in </a></li>
+<li><a href = "" class = "site-nav__link"> Social </a></li>
+<li><a href = "" class = "site-nav__link"> Business </a></li>
+</ul>
+</div>
+
+<div class = "description">
+<h1> Attract clients <span class="highlight">.</span> Discover professionalism <span class="highlight">.</span></h1>
+<h2> The place where needs meet satisfaction</h2>
+</div>
+
+<div style = "height: 600px;" class = "top-layer"></div>
+
+<h2 class="w3-center">Check these out...</h2>
+
+<div class = "slideshow-container">
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 1 / 10 </div>-->
+<img src = "remarkable-architecture-modern-buildings.jpg">
+<div class = "text"> Find about everything for your buildings </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 2 / 10 </div>-->
+<img src = "9695ebf18e1a6a4a8fffb9f9c33e5bdb_health-benefits-clip-art-health-benefits-clipart_1000-1000.jpeg">
+<div class = "text"> Health </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 3 / 10 </div>-->
+<img src = "accessory-plaza-via-thinkstock.jpg">
+<div class = "text"> Accessories </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 4 / 10 </div>-->
+<img src = "Beauty-Pictures.jpg">
+<div class = "text"> Beauty </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 5 / 10 </div>-->
+<img src = "improving-tech-literacy.jpg">
+<div class = "text"> Tech </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 6 / 10 </div>-->
+<img src = "pexels-photo-113721.jpeg">
+<div class = "text"> Shoes </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 7 / 10 </div>-->
+<img src = "th-10.jpg">
+<div class = "text"> Education </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 8 / 10 </div>-->
+<img src = "Undergound-Chic.jpg">
+<div class = "text"> Bags </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 9 / 10 </div>-->
+<img src = "food-dinner-pasta-spaghetti-8500.jpg">
+<div class = "text"> Food </div>
+</div>
+
+<div class = "mySlides">
+<!--<div class = "numbertext"> 10 / 10 </div>-->
+<img src = "gettingRidOfClothes.jpg">
+<div class = "text"> Clothes </div>
+</div>
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<br>
+</BODY>
+</HTML>
+
+

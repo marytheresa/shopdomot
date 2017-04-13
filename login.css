@@ -1,0 +1,51 @@
+#form {
+}
+
+#logo {
+	text-align: center;
+}
+
+.textbox {
+	text-align: center;
+	width: 35%;
+	padding: 12px 20px;
+	margin: 10px 450px;
+	border-radius: 5px;
+	background-color: #F2F3F4;
+}
+
+.left {
+	padding-top: 12px;
+	margin: 0 450px;
+}
+
+.right {
+	padding-top: 12px;
+	margin: 0 -175px;
+}
+
+.button {
+	text-align: center;
+	width: 38%;
+	padding: 12px 20px;
+	margin: 25px 450px;
+	border-radius: 5px; 
+}
+
+#red {
+	background-color: #E32636;
+}
+
+#blue {
+	background-color: #00308F;
+	opacity: 0.9;
+}
+
+input[type = checkbox] {
+	margin-top: 25px; 
+	transform: scale(2.0);
+}
+
+.highlighted {
+	
+}
